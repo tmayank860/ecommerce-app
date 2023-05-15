@@ -7,7 +7,7 @@ const App = () => {
   return (
     <div>
       <Router>
-        // Nav bar
+        // Nav bar to be implemented here
         <Routes>
           <Route exact path="" element={<HomeView/>}/>
           <Route exact path="/cart" element={<CartView/>}/>
